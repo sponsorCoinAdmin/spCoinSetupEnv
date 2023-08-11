@@ -1,1 +1,1 @@
-# spCoinSetupEnv
+// SponsorCoin Test Env Setup
