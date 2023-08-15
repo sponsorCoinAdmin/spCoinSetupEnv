@@ -1,4 +1,4 @@
-# spCoinSetupEnv ~ SponsorCoin Test Env Setup Menu system
+# spCoinSetupEnv ~ SponsorCoin Environment Setup Menu Aliases
 
 ### Command Menu Shortcuts<img src="https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/menu 1.jpg" width="6%" align= "right">
 
