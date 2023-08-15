@@ -5,7 +5,7 @@
 
 The <b>All Command Menus</b> are a list of shortcut - commands for administering the <b>{PROJECT}</b> you are working on.
 - If the menu system is installed correctly, simply type short cut - <b>'m \<enter>'</b> in a bash window and the following should appear:
-- All aliases may be edited changed and updated. for example the <b>ve</b> alias below will edit the environment alias list with vi editor, update it and then execute to make the new alises available.
+- All aliases may be edited, changed and updated. For example: The alias <b>ve</b> below will edit the environment alias list with vi editor. When editing is finished, the new alias list will be updated to make the new alises available for use. The new updates will then be available in the menu list.
 
 #### The Main Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/mainMenu.jpg)
 - The above menu is simply a menu of many submenu's and is self explanatory. Each submenu is explained below. Each entry is an - to an alternate command menu short cut. Each submenu exists under the repositorie's <b>{PROJECT}/env</b> directory. These menus can be more completely described in the file [<b>./setupEnv/ReadMe.md</b>](https://github.com/sponsorCoinAdmin/spCoinSetupEnv/blob/main/README.md).
