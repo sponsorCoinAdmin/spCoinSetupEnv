@@ -12,12 +12,17 @@ echo "SPONSOR_COIN_LOGS=$SPONSOR_COIN_LOGS"
 echo ""
 
 echo "Adding startup environment configuration Files For Sponsor Coin $SPONSOR_COIN_ENV/.e"
-echo "export SPONSOR_COIN_ENV=$SPONSOR_COIN_ENV    " | tee -a $SPONSOR_COIN_ENV/.e
+echo "export SPONSOR_COIN_ENV=$SPONSOR_COIN_ENV    " | tee $SPONSOR_COIN_ENV/.e
 echo "export SPONSOR_COIN_SETUP=$SPONSOR_COIN_SETUP" | tee -a $SPONSOR_COIN_ENV/.e
 echo "export SPONSOR_COIN_HOME=$SPONSOR_COIN_HOME  " | tee -a $SPONSOR_COIN_ENV/.e
 echo "export SPONSOR_COIN_LOG=$SPONSOR_COIN_LOGS   " | tee -a $SPONSOR_COIN_ENV/.e
 echo "export SPONSOR_COIN_ROOT=$SPONSOR_COIN_ROOT  " | tee -a $SPONSOR_COIN_ENV/.e
-cat $SPONSOR_COIN_SETUP/ORIG.e >>  $SPONSOR_COIN_ENV/.e
+
+cp $SPONSOR_COIN_SETUP/ORIG.e  $SPONSOR_COIN_ENV/.e
+cp $SPONSOR_COIN_SETUP/ORIG.ea $SPONSOR_COIN_ENV/.ea
+cp $SPONSOR_COIN_SETUP/ORIG.pa $SPONSOR_COIN_ENV/.pa
+cp $SPONSOR_COIN_SETUP/ORIG.ta $SPONSOR_COIN_ENV/.ta
+cp $SPONSOR_COIN_SETUP/ORIG.ua $SPONSOR_COIN_ENV/.ua
 echo ""
 
 echo "Adding sponsor coin startup configuration Files to bootstrap file ~/.baschrc"
