@@ -6,6 +6,7 @@
 The <b>All Command Menus</b> are a list of shortcut - commands for administering the <b>{PROJECT}</b> you are working on.
 - If the menu system is installed correctly, simply type short cut - <b>'m \<enter>'</b> in a bash window and the following should appear:
 - All aliases may be edited, changed and updated. For example: The alias <b>ve</b> below will edit the environment alias list with vi editor. When editing is finished, the new alias list will be updated to make the new alises available for use. The new updates will then be available in the menu list.
+- when the project as a whole is checked into the git repository with the exception of the User aliases. Alises checked into the git repository are avail 
 
 #### The Main Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/mainMenu.jpg)
 - The above menu is simply a menu of many submenu's and is self explanatory. Each submenu is explained below. Each entry is an - to an alternate command menu short cut. Each submenu exists under the repositorie's <b>{PROJECT}/env</b> directory. These menus can be more completely described in the file [<b>./setupEnv/ReadMe.md</b>](https://github.com/sponsorCoinAdmin/spCoinSetupEnv/blob/main/README.md).
@@ -45,6 +46,9 @@ The <b>All Command Menus</b> are a list of shortcut - commands for administering
 - <b>ua</b> ~ Display User alias list
 - <b>um</b> ~ Display User Menu list
 - <b>vu</b> ~ Edit the User alias file <b>{PROJECT}/env/ua</b>. When finished editing, execute it.
+-  - - - -
+### Video Tutorial<img src="https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/video.png" width="5%" align= "right">
+- Comprehensive Video Tutorial Currently Under Construction. Resource will be posted as soon as it is ready for publication.
 - - - -
 ## *** NOTE:
 All alias files will be checked into the git repository except the User alias list as these are user specific aliases and not system wide aliases.
