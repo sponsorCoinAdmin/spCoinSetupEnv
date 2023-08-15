@@ -1,6 +1,8 @@
-// SponsorCoin Test Env Setup
+# spCoinSetupEnv ~ SponsorCoin Test Env Setup Menu system
 
-### Command Menu Shortcuts<img src ~ https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/menu 1.jpg" width ~ 7%" align= "right">
+### Command Menu Shortcuts<img src="https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/menu 1.jpg" width="6%" align= "right">
+
+
 The <b>All Command Menus</b> are a list of shortcut - commands for administering the {<b>PROJECT</b>} you are working on.
 - If the menu system is installed correctly, simply type short cut - <b>'m \<enter>'</b> in a bash window and the following should appear:
 
@@ -29,17 +31,17 @@ The <b>All Command Menus</b> are a list of shortcut - commands for administering
 #### The Project Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/projectMenu.jpg)
 - pa ~ Display Project alias list
 - pm ~ Display Project menu list
-- vpa ~ Edit the Project alias file <b>~/.bashrc</b>. When finished editing, execute it.
+- vpa ~ Edit the Project alias file {<b>PROJECT</b>}/env/.pa. When finished editing, execute it.
 - - - -
 
 #### The Test Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/testMenu.jpg)
 - ta ~ Display Test alias list
 - tm ~ Display Test menu list
-- vta ~ Edit the Test alias file <b>~/.bashrc</b>. When finished editing, execute it.
+- vta ~ Edit the Test alias file <{<b>PROJECT</b>}/env/.ta. When finished editing, execute it.
 - - - -
 
 #### The User Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/userMenu.jpg)
 - ua ~ Display User alias list
 - um ~ Display User Menu list
-- vu ~ Edit the User alias file <b>~/.bashrc</b>. When finished editing, execute it.
+- vu ~ Edit the User alias file {<b>PROJECT</b>}/env/ua. When finished editing, execute it.
 - - - -
