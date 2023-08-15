@@ -3,3 +3,5 @@
 . $SPONSOR_COIN_ENV"/.pa"
 . $SPONSOR_COIN_ENV"/.ta"
 . $SPONSOR_COIN_ENV"/.ua"
+
+cdspc
