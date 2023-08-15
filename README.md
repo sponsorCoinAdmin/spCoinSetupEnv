@@ -3,7 +3,7 @@
 ### Command Menu Shortcuts<img src="https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/menu 1.jpg" width="6%" align= "right">
 
 
-The <b>All Command Menus</b> are a list of shortcut - <b>commands for administering the <b>{PROJECT}</b> you are working on.
+The <b>All Command Menus</b> are a list of shortcut - commands for administering the <b>{PROJECT}</b> you are working on.
 - If the menu system is installed correctly, simply type short cut - <b>'m \<enter>'</b> in a bash window and the following should appear:
 
 #### The Main Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/mainMenu.jpg)
