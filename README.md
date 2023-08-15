@@ -7,7 +7,7 @@ The <b>All Command Menus</b> are a list of shortcut - commands for administering
 - If the menu system is installed correctly, simply type short cut - <b>'m \<enter>'</b> in a bash window and the following should appear:
 
 #### The Main Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/mainMenu.jpg)
-- The above menu is simply a menu of many submenu's and is self explanatory. Each submenu is explained below. Each entry is an - to an alternate command menu short cut. Each submenu exists under the repositorie's {<b>PROJECT</b>}/env directory. These menus cane be more completely described in the file [<b>./setupEnv/ReadMe.md</b>](https://github.com/sponsorCoinAdmin/spCoinSetupEnv/blob/main/README.md).
+- The above menu is simply a menu of many submenu's and is self explanatory. Each submenu is explained below. Each entry is an - to an alternate command menu short cut. Each submenu exists under the repositorie's {<b>PROJECT</b>}/env directory. These menus can be more completely described in the file [<b>./setupEnv/ReadMe.md</b>](https://github.com/sponsorCoinAdmin/spCoinSetupEnv/blob/main/README.md).
 
 - - - -
 
