@@ -10,36 +10,36 @@ The <b>All Command Menus</b> are a list of shortcut - commands for administering
 - - - -
 
 #### The Environment Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/envMenu.jpg)
-- ea ~ Edit the Environment alias list
-- em ~ Display the environment menu shortcup command aliases
-- ve= Edit the environment varables with the VI editor
+- ea  ~ Display Environment alias list
+- em  ~ Display the environment menu shortcup command aliases
+- ve  ~ Edit the environment varables with the VI editor
 - vea ~ Edit the environment alises with the VI editor
-- m ~ Display this main (menu of menus) above
+- m   ~ Display this main (menu of menus) above
 
-# DIRECTORY EDITING SETTINGS
-- cdenv   ~  Change directory to: $SPONSOR_COIN_ENV"
-- cdsetup ~  Change directory to: $SPONSOR_COIN_SETUP"
-- cdspc   ~  Change directory to: $SPONSOR_COIN_HOME"
-- cdroot  ~  Change directory to: $SPONSOR_COIN_ROOT"
-- cdt     ~  Change directory to: $SPONSOR_COIN_TEST"
-- cdtest  ~  Change directory to: $SPONSOR_COIN_TEST"
+#### PROJECT DIRECTORY EDITING SETTINGS
+- cdenv   ~  Change directory to: $SPONSOR_COIN_ENV
+- cdsetup ~  Change directory to: $SPONSOR_COIN_SETUP
+- cdspc   ~  Change directory to: $SPONSOR_COIN_HOME
+- cdroot  ~  Change directory to: $SPONSOR_COIN_ROOT
+- cdt     ~  Change directory to: $SPONSOR_COIN_TEST
+- cdtest  ~  Change directory to: $SPONSOR_COIN_TEST
 - vbrc    ~ Edit the Bash bootstrap file <b>~/.bashrc</b>. When finished editing, execute it.
 - - - -
 
 #### The Project Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/projectMenu.jpg)
-- pa ~ $SPONSOR_COIN_ENV/.pa"
-- pm ~ $SPONSOR_COIN_ENV/.pm"
-- vpa ~ vi $SPONSOR_COIN_ENV/.pa;pa"
+- pa ~ Display Project alias list
+- pm ~ Display Project menu list
+- vpa ~ Edit the Project alias file <b>~/.bashrc</b>. When finished editing, execute it.
 - - - -
 
 #### The Test Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/testMenu.jpg)
-- ta ~ $SPONSOR_COIN_ENV/.ta"
-- tm ~ $SPONSOR_COIN_ENV/.tm"
-- vta ~ vi $SPONSOR_COIN_ENV/.ta;ta"
+- ta ~ Display Test alias list
+- tm ~ Display Test menu list
+- vta ~ Edit the Test alias file <b>~/.bashrc</b>. When finished editing, execute it.
 - - - -
 
 #### The User Menu![<b>Author Image</b>](https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/userMenu.jpg)
-- ua ~ $SPONSOR_COIN_ENV/.ua"
-- um ~ $SPONSOR_COIN_ENV/.um"
-- vu ~ vi $SPONSOR_COIN_ENV/.ua;ua"
+- ua ~ Display User alias list
+- um ~ Display User Menu list
+- vu ~ Edit the User alias file <b>~/.bashrc</b>. When finished editing, execute it.
 - - - -
