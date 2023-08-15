@@ -47,7 +47,7 @@ The <b>All Command Menus</b> are a list of shortcut - commands for administering
 - <b>um</b> ~ Display User Menu list
 - <b>vu</b> ~ Edit the User alias file <b>{PROJECT}/env/ua</b>. When finished editing, execute it.
 -  - - - -
-### Video Tutorial<img src="https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/video2.png" width="5%" align= "right">
+### Video Tutorial<img src="https://github.com/sponsorCoinAdmin/spCoinImages/blob/main/video2.png" width="6%" align= "right">
 - Comprehensive Video Tutorial Currently Under Construction. Resource will be posted as soon as it is ready for publication.
 - - - -
 ## *** NOTE:
