@@ -2,7 +2,6 @@
 alias ta=". $SPONSOR_COIN_ENV/.ta"
 alias tm=". $SPONSOR_COIN_ENV/.tm"
 alias vta="vi $SPONSOR_COIN_ENV/.ta;ta"
+alias vtm="vi $SPONSOR_COIN_ENV/.tm;tm"
 
 # TESTING ALIAS COMMAND'S
-alias runserver='cd $SPONSOR_COIN_HOME; npm start'
-alias startserver='cd $SPONSOR_COIN_HOME; npm start'
