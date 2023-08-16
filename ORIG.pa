@@ -1,7 +1,7 @@
-#TESTING ALIAS MANAGEMENT
+#<project Name> TESTING ALIAS MANAGEMENT
 alias pa=". $SPONSOR_COIN_ENV/.pa"
 alias pm=". $SPONSOR_COIN_ENV/.tm"
 alias vpa="vi $SPONSOR_COIN_ENV/.pa;pa"
 alias vpm="vi $SPONSOR_COIN_ENV/.pm;pm"
 
-# PROJECT ALIAS COMMAND'S
+# <project Name> PROJECT ALIAS COMMAND'S

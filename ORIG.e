@@ -1,7 +1,5 @@
-#SET UP ALIASES
+# <project Name> SET UP ALIASES
 . $SPONSOR_COIN_ENV"/.ea"
 . $SPONSOR_COIN_ENV"/.pa"
 . $SPONSOR_COIN_ENV"/.ta"
 . $SPONSOR_COIN_ENV"/.ua"
-
-cdspc
