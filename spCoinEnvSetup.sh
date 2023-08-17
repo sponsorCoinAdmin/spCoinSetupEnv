@@ -36,7 +36,7 @@ echo "EXECUTING COMMAND npm i"
 npm i
 #npm audit fix --force
 
-cp $SPONSOR_COIN_ENV"/.SAMPLE.env $SPONSOR_COIN_HOME/.env
+cp $SPONSOR_COIN_ENV/.SAMPLE.env $SPONSOR_COIN_HOME/.env
 echo ""
 echo "*** IMPORTANT SETUP NOTE ***"
 echo "Please ensure the '.env' file is configured for proper operations"
