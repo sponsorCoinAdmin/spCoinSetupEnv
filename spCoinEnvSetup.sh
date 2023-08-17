@@ -41,9 +41,8 @@ echo "Starting menu with 'm' alias"
 m
 
 echo "EXECUTING cp $SPONSOR_COIN_ENV/.SAMPLE.env $SPONSOR_COIN_HOME/.env"
-cp $SPONSOR_COIN_ENV/.SAMPLE.env $SPONSOR_COIN_HOME/.env
+cp $SPONSOR_COIN_ENV/SAMPLE.env $SPONSOR_COIN_HOME/.env
 echo ""
 echo "*** IMPORTANT SETUP NOTE ***"
 echo "Please ensure the '.env' file is configured for proper operations"
-echo "    EXAMPLE .env file is located at:"
-echo "    $SPONSOR_COIN_SETUP/SAMPLE.env"
+echo "    THIS .env file is located at at the project level $SPONSOR_COIN/.env"
