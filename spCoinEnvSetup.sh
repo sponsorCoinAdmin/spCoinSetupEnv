@@ -37,10 +37,13 @@ echo "EXECUTING COMMAND npm i"
 npm i
 #npm audit fix --force
 
+echo "Starting menu with 'm' alias"
+m
+
+iecho "EXECUTING cp $SPONSOR_COIN_ENV/.SAMPLE.env $SPONSOR_COIN_HOME/.env"
 cp $SPONSOR_COIN_ENV/.SAMPLE.env $SPONSOR_COIN_HOME/.env
 echo ""
 echo "*** IMPORTANT SETUP NOTE ***"
 echo "Please ensure the '.env' file is configured for proper operations"
 echo "    EXAMPLE .env file is located at:"
 echo "    $SPONSOR_COIN_SETUP/SAMPLE.env"
-m
