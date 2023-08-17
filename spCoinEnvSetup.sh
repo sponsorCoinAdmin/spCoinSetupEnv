@@ -1,4 +1,3 @@
-git checkout main
 export SPONSOR_COIN_SETUP=$PWD;
 export SPONSOR_COIN_HOME=${SPONSOR_COIN_SETUP%/*};
 export SPONSOR_COIN_ROOT=${SPONSOR_COIN_HOME%/*};
