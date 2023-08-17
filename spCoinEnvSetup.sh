@@ -42,3 +42,4 @@ echo "*** IMPORTANT SETUP NOTE ***"
 echo "Please ensure the '.env' file is configured for proper operations"
 echo "    EXAMPLE .env file is located at:"
 echo "    $SPONSOR_COIN_SETUP/SAMPLE.env"
+m
