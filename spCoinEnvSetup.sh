@@ -29,8 +29,8 @@ npm i
 echo "Starting menu with 'm' alias"
 m
 
-echo "EXECUTING cp $SPONSOR_COIN_ENV/.SAMPLE.env $SPONSOR_COIN_HOME/.env"
-cp $SPONSOR_COIN_ENV/SAMPLE.env $SPONSOR_COIN_HOME/.env
+echo "EXECUTING cp $SPONSOR_COIN_ENV/.SETUP.env $SPONSOR_COIN_HOME/.env"
+cp $SPONSOR_COIN_ENV/SETUP.env $SPONSOR_COIN_HOME/.env
 echo ""
 echo "*** IMPORTANT SETUP NOTE ***"
 echo "Please ensure the '.env' file is configured for proper operations"
