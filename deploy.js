@@ -24,6 +24,20 @@ module.exports = {
 main = async() => {
   const [deployer] = await ethers.getSigners();
   const networkName = hre.network.name
+
+//////////////////////////////////////////////////////
+const impSigner = await ethers.getImpersonatedSigner(SIGNER_ADDRESS);
+
+  networkName = HARDHAT.network.name
+  chainId = HARDHAT.network.config.chainId
+  
+    
+  console.log(JSON.stringify(HARDHAT.network.config, (_, v) => typeof v === 'bigint' ? v.toString() : v, 2))
+
+  console.log("main(",networkName, impSigner.address,")")
+  console.log("ChainId:", chainId)
+//////////////////////////////////////////////////////
+
   const tokenSymbol = "SPCoin"
   await deployToNetwork(ethers, networkName, deployer, tokenSymbol);
 }
