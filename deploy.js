@@ -1,3 +1,4 @@
+const SIGNER_ADDRESS = process.env.WALLET_ADDRESS
 deployToNetwork = async(_ethers, _networkName, _deployer, _tokenSymbol) => {
   let networkURL = "https://"
   if (_networkName === "mainnet")
@@ -24,18 +25,16 @@ module.exports = {
 main = async() => {
   const [deployer] = await ethers.getSigners();
   const networkName = hre.network.name
-
-//////////////////////////////////////////////////////
-const impSigner = await ethers.getImpersonatedSigner(SIGNER_ADDRESS);
-
-  networkName = HARDHAT.network.name
-  chainId = HARDHAT.network.config.chainId
-  
-    
-  console.log(JSON.stringify(HARDHAT.network.config, (_, v) => typeof v === 'bigint' ? v.toString() : v, 2))
-
-  console.log("main(",networkName, impSigner.address,")")
+  const chainId = hre.network.config.chainId
+  console.log("main(",networkName, deployer.address,")")
   console.log("ChainId:", chainId)
+ 
+//////////////////////////////////////////////////////
+if (networkName === "hardhat"){
+  const impSigner = await ethers.getImpersonatedSigner(SIGNER_ADDRESS);
+
+  console.log(JSON.stringify(hre.network.config, (_, v) => typeof v === 'bigint' ? v.toString() : v, 2))
+}
 //////////////////////////////////////////////////////
 
   const tokenSymbol = "SPCoin"
