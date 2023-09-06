@@ -1,5 +1,5 @@
-require("dotenv").config();
-const SIGNER_ADDRESS = process.env.WALLET_ADDRESS
+// require("dotenv").config();
+// const SIGNER_ADDRESS: = process.env.WALLET_ADDRESS
 deployToNetwork = async(_ethers, _networkName, _deployer, _tokenSymbol) => {
   let networkURL = "https://"
   if (_networkName === "mainnet")
@@ -30,12 +30,15 @@ main = async() => {
   console.log("main(",networkName, deployer.address,")")
   console.log("ChainId:", chainId)
  
-//////////////////////////////////////////////////////
-if (networkName === "hardhat"){
-  const impSigner = await ethers.getImpersonatedSigner(SIGNER_ADDRESS);
-
-  console.log(JSON.stringify(hre.network.config, (_, v) => typeof v === 'bigint' ? v.toString() : v, 2))
-}
+/////////////////////////////////////////////////////
+// if (networkName === "hardhat"){
+//   if (SIGNER_ADDRESS != undefined) {
+//     console.log("SIGNER_ADDRESS:" , SIGNER_ADDRESS)
+//     const impSigner = await ethers.getImpersonatedSigner(SIGNER_ADDRESS);
+//     console.log(JSON.stringify(hre.network.config, (_, v) => typeof v === 'bigint' ? v.toString() : v, 2))
+//   }
+//     else console.log("SIGNER_ADDRESS:" , SIGNER_ADDRESS)
+// }
 //////////////////////////////////////////////////////
 
   const tokenSymbol = "SPCoin"
