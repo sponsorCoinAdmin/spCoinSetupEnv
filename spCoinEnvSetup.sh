@@ -13,6 +13,7 @@ cat $SPONSOR_COIN_SETUP/ORIG.e >> $SPONSOR_COIN_ENV/.e
 # cp $SPONSOR_COIN_SETUP/ORIG.pa $SPONSOR_COIN_ENV/.pa
 # cp $SPONSOR_COIN_SETUP/ORIG.ta $SPONSOR_COIN_ENV/.ta
 cp $SPONSOR_COIN_SETUP/ORIG.ua $SPONSOR_COIN_ENV/.ua
+echo "cdspc" |  tee -a $SPONSOR_COIN_ENV/.e
 echo ""
 
 echo "Adding sponsor coin startup configuration Files to bootstrap file ~/.baschrc"
