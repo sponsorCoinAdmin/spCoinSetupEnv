@@ -1,5 +1,3 @@
-// require("dotenv").config();
-// const SIGNER_ADDRESS: = process.env.WALLET_ADDRESS
 deployToNetwork = async(_ethers, _networkName, _deployer, _tokenSymbol) => {
   let networkURL = "https://"
   if (_networkName === "mainnet")
